@@ -6,7 +6,7 @@ function lengthOfCycle(list) {
 
     while(slow && fast && fast.nextElement) {
         slow= slow.nextElement;
-        fast= fast.nextElement;
+        fast= fast.nextElement.nextElement;
 
         if (slow === fast) {
             return calculateCycleLength(slow);
