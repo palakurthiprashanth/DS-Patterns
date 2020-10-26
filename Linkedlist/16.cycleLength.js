@@ -20,11 +20,11 @@ function calculateCycleLength(slow) {
     let length= 0;
 
     while(current!==null) {
+        current= current.nextElement;
+        length+=1;
         if (current === slow) {
             break;
         }
-        current= current.nextElement;
-        length+=1;
     }
     return length;
 }
