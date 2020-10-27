@@ -32,7 +32,7 @@ function intersectionPoint(list1, list2) {
         }
 
         while (list1node) {
-            if (list1node.data === list2node.data) {
+            if (list1node === list2node) { // address should be same.
                 return list1node.data;
             }
                 list1node = list1node.nextElement;
