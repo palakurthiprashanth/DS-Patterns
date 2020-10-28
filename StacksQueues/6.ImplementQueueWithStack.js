@@ -19,3 +19,10 @@ class QueueUsingStacks {
         return this.tempStack.pop();
     }
 }
+
+/**
+Time Complexity #
+This solution is the best of the three solutions in this lesson, as the transfer of elements between stacks takes place only if tempStack is empty. 
+Therefore, the amortized complexity of the dequeue operation becomes O(n)O(n), while the time complexity for the enqueue operation 
+is O(1)O(1).
+**/
