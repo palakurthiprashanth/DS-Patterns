@@ -19,7 +19,7 @@ class CircularQueue {
         this.back++
         this.items[this.back % this.size]= value;
     }
-    dequeue(value) {
+    dequeue() {
         if (this.isEmpty()) {
             console.log("Nothing to remove.");
             return;
