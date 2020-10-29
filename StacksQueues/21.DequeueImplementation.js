@@ -47,4 +47,10 @@ class Dequeue {
         this.lowestCount++;
         return this.items.shift();
     }
+    getFront() {
+        return this.items[0];
+    }
+    getBack() {
+        return this.items[this.count-1];
+    }
 }
