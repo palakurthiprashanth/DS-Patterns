@@ -15,7 +15,7 @@ class Dequeue {
         this.items.length;
     }
     insertAtBack(element) {
-        this.items.push(element);
+        this.items[this.count] = element;
         this.count++;
     }
     insertAtFront(element) {
