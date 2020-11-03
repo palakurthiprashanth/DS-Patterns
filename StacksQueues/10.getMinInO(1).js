@@ -16,7 +16,7 @@ class minStack {
         }
     }
     min() {
-        return this.minStack.pop();
+        return this.minStack.getTop();
     }
 }
 var stack = new minStack()
