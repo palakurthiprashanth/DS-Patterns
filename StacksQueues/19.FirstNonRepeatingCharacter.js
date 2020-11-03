@@ -32,4 +32,4 @@ function firstNonRepeating(str) {
     return result.join(" ");
 }
 
-console.log(firstNonRepeating("aabc"));
+console.log(firstNonRepeating("aabc"));// a -1 b c
