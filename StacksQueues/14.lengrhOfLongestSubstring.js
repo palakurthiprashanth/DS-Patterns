@@ -26,6 +26,7 @@ function lengthOfLongestSubstring(str) {
             if (stack.isEmpty() === false) {
                 stack.pop();
                 result= Math.max(result, i-stack.getTop());
+                // this is because it will check max conitnuos ()()()((()() , it will print 6 but not 10.Max of ()()() and ()() is 6.
             }else {
                 stack.push(i);
             }
