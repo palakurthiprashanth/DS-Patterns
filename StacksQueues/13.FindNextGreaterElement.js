@@ -1,3 +1,5 @@
+// https://www.youtube.com/watch?v=NXOOYYwpbg4&t=653s
+
 function nextGreaterElement(arr) {
     let result= [];
     let stack= new Stack();
