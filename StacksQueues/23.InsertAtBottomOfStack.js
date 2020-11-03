@@ -4,7 +4,7 @@ function insertAtBottomOfStack(value) {
     if (stack.isEmpty()) {
         stack.push(value);
     }else {
-        let a= stack.getTop();
+        let a= stack.pop();
         insertAtBottomOfStack(value);
         stack.push(a);
     }
