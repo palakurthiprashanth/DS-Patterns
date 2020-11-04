@@ -43,9 +43,10 @@ class Dequeue {
         if (this.isEmpty()) {
             return null;
         }
-        this.count--;
+        let result = this.items[this.lowestCount];
+        delete this.items[this.lowestCount];
         this.lowestCount++;
-        return this.items.shift();
+        return result;
     }
     getFront() {
         return this.items[0];
