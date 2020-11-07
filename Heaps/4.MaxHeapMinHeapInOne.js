@@ -1,3 +1,4 @@
+// delete fn needs to be implemented which deletes specific value in heap.
 class Heap {
     constructor(compareFn) {
         this.heap= [];
