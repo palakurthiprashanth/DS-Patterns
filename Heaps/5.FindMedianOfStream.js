@@ -38,3 +38,12 @@ medianOfAStream.insert_num(5);
 console.log(`The median is: ${medianOfAStream.find_median()}`);//2
 medianOfAStream.insert_num(4);
 console.log(`The median is: ${medianOfAStream.find_median()}`);//3.5
+
+/**
+Time complexity #
+The time complexity of the insertNum() will be O(logN) due to the insertion in the heap. 
+The time complexity of the findMedian() will be O(1)O(1) as we can find the median from the top elements of the heaps.
+
+Space complexity #
+The space complexity will be O(N)O(N) because, as at any time, we will be storing all the numbers.
+**/
