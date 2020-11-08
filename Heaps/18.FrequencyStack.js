@@ -36,7 +36,7 @@ console.log(frequencyStack.pop());
 console.log(frequencyStack.pop());
 
 /**
-me complexity #
+Time complexity #
 The time complexity of push() and pop() is O(logN) where ‘N’ is the current number of elements in the heap.
 
 Space complexity #
