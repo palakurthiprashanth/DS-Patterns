@@ -40,7 +40,8 @@ class Heap {
         let left= (2*parentIndex)+1;
         let right= (2*parentIndex)+2;
         let swapIndex= parentIndex;
-
+        
+        // For last element lft and right child indexes are greater than this.elements.
         if ((left < this.elements) && this.compareFn(this.heap[swapIndex], this.heap[left]) < 0) {
             swapIndex= left;
         }
