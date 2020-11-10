@@ -5,6 +5,9 @@ class Heap {
         this.elements= 0;
         this.compareFn= compareFn;
     }
+    length() {
+        return this.heap.length;
+    }
     push(value) {
         this.heap.push(value);
         this.elements= this.elements+1;
@@ -28,6 +31,7 @@ class Heap {
     pop() {
         let top= this.heap[0];
         this.heap[0]= this.heap[this.heap.length-1];
+        this.heap.pop();
         this.elements= this.elements-1;
         this.__Heapify(0);
         return top;
@@ -55,6 +59,14 @@ class Heap {
     }
     peek() {
         return this.heap[0];
+    }
+    toArray() {
+        return this.heap;
+    }
+    addEach(arr) {
+        for (var i=0; i<arr.length;i++) {
+            this.push(arr[i]);
+        }
     }
 }
 /**
