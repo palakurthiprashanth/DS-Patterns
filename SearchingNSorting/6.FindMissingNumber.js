@@ -1,4 +1,4 @@
-function findMissingNumber(arr) {
+function cyclicSort(arr) {
     let i= 0;
     while(i<arr.length) {
         let targetIndex= arr[i]-1;
@@ -10,6 +10,6 @@ function findMissingNumber(arr) {
     }
     return arr;
 }
-console.log(findMissingNumber([3, 1, 5, 4, 2])); //[1,2,3,4,5];
+console.log(cyclicSort([3, 1, 5, 4, 2])); //[1,2,3,4,5];
 
 // TC: O(n).
