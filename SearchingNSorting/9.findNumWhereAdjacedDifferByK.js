@@ -1,3 +1,4 @@
+// https://thecodingsimplified.com/find-1st-occurrence-of-a-value-if-adjacent-values-differ-by-at-most-k/
 function findWhereAdjacentDifferByAtMostk(arr, k, value) {
     let start= 0;
     while(start < arr.length) {
