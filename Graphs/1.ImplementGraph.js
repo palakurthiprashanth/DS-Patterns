@@ -16,6 +16,12 @@ class Graph {
             // this.list[destination].insertAtHead(source);
         }
     }
+    deleteEdge(source, destination) {
+        if (source < this.vertices && destination < this.vertices) {
+            this.list[source].deleteVal(destination);
+        }
+        return;
+    }
     printGraph() {
         let result= "";
         for (var i=0;i<this.list.length;i++) {
