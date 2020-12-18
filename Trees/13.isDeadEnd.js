@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/simple-recursive-solution-check-whether-bst-contains-dead-end/
+
 function deadEnd(root, min=1, int max=INT_MAX) { 
     // if the root is null or the recursion moves 
     // after leaf node it will return false 
