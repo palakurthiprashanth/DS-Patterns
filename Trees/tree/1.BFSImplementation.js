@@ -21,6 +21,7 @@ function BfsTraversalTree(root) {
             }
         }
         result.push(currentLevel);
+        // if we want to reverse the Traversal then result.unshift(currentLevel)
     }
     return result;
 }
