@@ -10,6 +10,8 @@ function find_minimum_depth(root) {
 
         for (var i=0; i<levelLength; i++) {
             let currentNode= queue.dequeue();
+            
+            // If we exclude below if condition then it will be max depth
             if (currentNode.leftChild === null && currentNode.rightChild === null) {
                 return minDepth;
             }
