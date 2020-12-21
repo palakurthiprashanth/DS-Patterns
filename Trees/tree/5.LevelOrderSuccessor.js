@@ -1,3 +1,5 @@
+// The level order successor is the node that appears right after the given node in the level order traversal
+
 function find_successor(root, key) {
   if (root === null) {
     return null;
