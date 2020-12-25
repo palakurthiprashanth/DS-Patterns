@@ -36,3 +36,7 @@ function triplet_with_smaller_sum (arr, targetSum) {
 }
 console.log(triplet_with_smaller_sum([-1, 0, 2, 3], 3)); // 2
 console.log(triplet_with_smaller_sum([-1, 4, 2, 1, 3], 5)); // 4
+
+/**
+will take O(N * logN + N^3)O(N∗logN+N​3), which is asymptotically equivalent to O(N^3)O(N​3).
+**/
