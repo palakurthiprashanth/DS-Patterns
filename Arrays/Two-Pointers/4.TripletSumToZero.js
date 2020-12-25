@@ -40,3 +40,5 @@ function search_pair(arr, target_sum, left, triplets) {
 
 
 console.log(search_triplets([-3, 0, 1, 2, -1, 1, -2]));
+
+// TC=> O(N^2).
