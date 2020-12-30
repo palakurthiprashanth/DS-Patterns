@@ -1,3 +1,5 @@
+// https://www.youtube.com/watch?v=_qeh8VQCm0A
+
 function findWater(arr) {
     let left= [];
     let right= [];
